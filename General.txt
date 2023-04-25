@@ -1,0 +1,98 @@
+/**
+  *body color:#262C49
+  *box color:#10163A
+  *Button color:#7367F0
+  *text Back color:#212744
+*/
+
+@media (min-width:320px) and (max-width:576px){
+	title{
+		//
+	}
+}
+
+@media (max-width:768px){
+	title{
+		//
+	}
+}
+
+@media (max-width:992px){
+	title{
+		//
+	}
+}
+
+@media (max-width:1200px){
+	title{
+		//
+	}
+}
+
+@media (max-width:1400px){
+	title{
+		//
+	}
+}
+
+Box Color:
+
+	background: linear-gradient(to right, #dd5e89, #f7bb97);
+
+
+	background: linear-gradient(to right, #eb3349, #f45c43);
+
+
+	background: linear-gradient(to right, #1d976c, #93f9b9);
+
+
+	background: linear-gradient(to right, #16222a, #3a6073);
+
+	background: linear-gradient(to right, #4776e6, #8e54e9);
+
+
+
+Gradient Color:
+ -> https://uigradients.com/#ElectricViolet
+ 
+Color Hunt:
+ -> https://colorhunt.co/ 
+
+Coolors:
+->https://coolors.co/gradients
+
+Free Html CSS Template:
+-> https://www.free-css.com/free-css-templates
+
+Free Icons:
+-> https://heroicons.com/
+
+
+-> Animation Box:
+Move Up:
+.product .box:nth-child(3){
+	animation:move-up 1s .5s forwards;
+}
+@keyframes move-up {
+	0%{
+		transform: translateY(40rem) rotateY(-20deg);
+	}
+	100%{
+		transform: translateY(0) rotateY(0);
+		opacity: 1;
+	}
+}
+
+Move Left:
+.product .box:nth-child(3){
+	animation:move-left 1s .5s forwards;
+}
+@keyframes move-left {
+	0%{
+		transform: translateX(40rem) rotateY(-20deg);
+	}
+	100%{
+		transform: translateX(0) rotateY(0);
+		opacity: 1;
+	}
+}
